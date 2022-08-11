@@ -150,10 +150,13 @@ nav {
     background-color: var(--white);
     position: absolute;
     top: 61px;
-    width: 100px;
-    height: auto;
+    left: 0;
+    width: 150px;
+    bottom: 0;
     border-radius: 6px;
-    padding: 0 24px 26px;
+    padding: 0 30px 26px;
+    border-right: 1px solid var(--very-light-pink);
+    border-bottom: 1px solid var(--very-light-pink);
 }
 
 .mobile-menu ul {
